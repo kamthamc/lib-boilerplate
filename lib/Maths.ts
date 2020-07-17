@@ -1,5 +1,5 @@
 
-export default class Math {
+export default class Maths {
   sum (...args: number[]) {
     return args.reduce((previousValue, value) => previousValue + value, 0);
   }

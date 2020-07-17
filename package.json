@@ -4,10 +4,11 @@
     "dist"
   ],
   "scripts": {
-    "tsc": "tsc --init",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "node test/test.js"
   },
   "main": "dist/index.js",
+  "module": "dist/index.ts",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",

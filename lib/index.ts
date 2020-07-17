@@ -1,3 +1,3 @@
-import Math from './Math';
+import Maths from './Maths';
 
-export { Math };
+export { Maths };

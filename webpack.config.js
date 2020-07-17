@@ -5,6 +5,8 @@ module.exports = {
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
+    ecmaVersion: 6,
+    libraryTarget: 'commonjs'
   },
   mode: 'production',
   module: {
@@ -17,5 +19,5 @@ module.exports = {
   },
   resolve: {
     extensions: [ '.ts'],
-  },
+  }
 };
